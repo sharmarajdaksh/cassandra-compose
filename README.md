@@ -11,9 +11,9 @@ You may add the `-d` flag to run it in the background.
 
 To test if the container is up, you can run:
 ```bash
-node app.js
+npm i && node app.js
 ```
-If the container does come up successfully, the node app will connect and print something like:
+If the container is up successfully, the command will connect and print something like the following at the end:
 ```bash
 CONNECTION SUCCESSFUL
 
