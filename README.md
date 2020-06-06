@@ -1,3 +1,5 @@
+# cassandra-compose
+
 Simple docker-compose for running an Apache Cassandra container.
 
 To run the Cassandra container:
@@ -34,3 +36,7 @@ ResultSet {
   nextPage: undefined,
   nextPageAsync: undefined }
 ```
+
+# Running a Cassandra cluster
+If you think you have a fairly powerful computer with at least 16GB of RAM, you could even run a Cassandra cluster on your machine. Just comment out the commented parts of the docker-compose.yml file and do a `docker-compose up`.
+My Linux machine with 8GB could not run the whole cluster successfully, but maybe yours could.
