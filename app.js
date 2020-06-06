@@ -17,4 +17,5 @@ client
 	.catch((err) => {
 		console.log('\nCONNECTION FAILED\n');
 		console.log(err);
+		process.exit(0);
 	});
